@@ -1,0 +1,61 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  min-height: 100vh;
+  background-color: 
+ #f2f2f2;
+}
+
+/* Contenedor principal */
+.container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+/* Botón */
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Contenedor de imágenes */
+#imagen-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+/* Imágenes */
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+/* Texto descriptivo */
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
