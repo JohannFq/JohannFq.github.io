@@ -13,12 +13,6 @@ body, html {
     text-align: center;
 }
 
-h1 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
-}
-
 .download-btn {
     padding: 10px 20px;
     font-size: 18px;
